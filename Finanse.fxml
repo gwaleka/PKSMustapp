@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="1021.0" style="-fx-background-color: #8EC62D;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.FinanseController">
+   <children>
+      <TableView layoutX="8.0" layoutY="12.0" prefHeight="561.0" prefWidth="1004.0">
+        <columns>
+          <TableColumn prefWidth="175.0" text="Imię" />
+            <TableColumn prefWidth="175.0" text="Nazwisko" />
+            <TableColumn prefWidth="175.0" text="Grupa" />
+            <TableColumn minWidth="0.0" prefWidth="37.0" text="I" />
+            <TableColumn prefWidth="30.0" text="II" />
+            <TableColumn prefWidth="30.0" text="III" />
+            <TableColumn prefWidth="30.0" text="IV" />
+            <TableColumn prefWidth="30.0" text="V" />
+            <TableColumn prefWidth="30.0" text="VI" />
+            <TableColumn prefWidth="30.0" text="VII" />
+            <TableColumn prefWidth="30.0" text="VIII" />
+            <TableColumn prefWidth="30.0" text="IX" />
+            <TableColumn prefWidth="30.0" text="X" />
+            <TableColumn prefWidth="30.0" text="XI" />
+            <TableColumn prefWidth="30.0" text="XII" />
+            <TableColumn prefWidth="167.0" text="Bilans" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="104.0" fitWidth="724.0" layoutX="8.0" layoutY="585.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@szal4.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="759.0" layoutY="585.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="79.0" text="Edycja">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="846.0" layoutY="585.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" text="Dodaj">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="933.0" layoutY="585.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="79.0" text="Kasuj">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <MenuButton layoutX="759.0" layoutY="631.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="255.0" text="Wybierz grupę">
+        <items>
+          <MenuItem mnemonicParsing="false" text="2001-2003" />
+          <MenuItem mnemonicParsing="false" text="2005" />
+            <MenuItem mnemonicParsing="false" text="2007" />
+            <MenuItem mnemonicParsing="false" text="2009" />
+        </items>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </MenuButton>
+   </children>
+</AnchorPane>

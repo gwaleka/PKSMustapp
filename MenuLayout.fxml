@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.MainController">
+   <children>
+      <Button layoutX="46.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#grupa1klik" prefHeight="25.0" prefWidth="75.0" text="2001-2003" />
+      <Button layoutX="46.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#grupa2klik" prefHeight="25.0" prefWidth="75.0" text="2005" />
+      <Button layoutX="46.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#grupa3klik" prefHeight="25.0" prefWidth="75.0" text="2007" />
+      <Button layoutX="46.0" layoutY="246.0" mnemonicParsing="false" onMouseClicked="#grupa4klik" prefHeight="25.0" prefWidth="75.0" text="2009" />
+      <Button layoutX="468.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#treningiklik" prefHeight="25.0" prefWidth="75.0" text="Treningi" />
+      <Button layoutX="468.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#meczeklik" prefHeight="25.0" prefWidth="75.0" text="Mecze" />
+      <Button layoutX="468.0" layoutY="200.0" mnemonicParsing="false" onMouseClicked="#kontaktyklik" prefHeight="25.0" prefWidth="75.0" text="Kontakty" />
+      <Button layoutX="468.0" layoutY="246.0" mnemonicParsing="false" onMouseClicked="#finanseklik" prefHeight="25.0" prefWidth="75.0" text="Finanse" />
+      <ImageView fitHeight="299.0" fitWidth="384.0" layoutX="151.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/PKS%20Mustapp/logo2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
